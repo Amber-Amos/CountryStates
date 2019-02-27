@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="country.css">
+    <script type="text/javascript" src="countryStates.js"></script>
+</head>
+
+<body onload="getCountries()">
+    <div class="select">
+        <h2 class='intro'>Make Your Slection</h2>
+        <br>
+        <form>
+            <optgroup label="Country"></optgroup>
+            <select id="countryDrop" name="country" oninput="getStates()">
+                <option value="empty"></option>
+            </select>
+        </form>
+        <from>
+            <optgroup label="State"></optgroup>
+            <select id="stateDrop" name="state"></select>
+        </from>
+    </div>
+</body>
+
+</html>

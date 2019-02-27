@@ -1,0 +1,39 @@
+.intro{
+    font-family: 'Times New Roman', Times, serif;
+    color: #45A29E;
+    font-size: 50px;
+}
+
+body{
+    background-image: url("dark-world-map.jpg")
+}
+
+.select{
+    height: 300px;
+    width: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -250px;
+    text-align: center;
+}
+
+optgroup{
+    color:#45A29E;
+    font-size: 25px;
+}
+
+.drop{
+    
+    display: block;
+}
+
+form{
+    display: inline-block;
+}
+
+#countryDrop, #stateDrop{
+    height: 30px;
+    width: 200px;
+}
